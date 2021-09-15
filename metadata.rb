@@ -1,11 +1,13 @@
 name 'netextender'
-maintainer 'The Authors'
+maintainer 'Nghiem Ba Hieu'
 maintainer_email 'msrx127@cidare.com'
 license 'Apache-2.0'
 description 'Installs/Configures netextender'
 long_description 'Installs/Configures netextender'
 version '0.1.0'
 chef_version '>= 13.0'
+
+supports 'windows'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

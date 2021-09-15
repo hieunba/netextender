@@ -6,6 +6,4 @@ This file is used to list changes made in each version of the netextender cookbo
 
 Initial release.
 
-- change 0
-- change 1
-
+- Install SonicWall NetExtender 10.2.313 software from SonicWall
