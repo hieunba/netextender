@@ -16,9 +16,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-package 'NetExtender' do
+windows_package 'NetExtender' do
   source node['netextender']['source']
   version node['netextender']['version']
   installer_type :msi
+  returns [0, 3010, 1641]
   action :install
 end
