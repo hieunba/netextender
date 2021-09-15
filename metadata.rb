@@ -4,7 +4,7 @@ maintainer_email 'msrx127@cidare.com'
 license 'Apache-2.0'
 description 'Installs/Configures netextender'
 long_description 'Installs/Configures netextender'
-version '0.1.0'
+version '0.1.1'
 chef_version '>= 13.0'
 
 supports 'windows'
