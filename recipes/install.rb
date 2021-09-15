@@ -1,8 +1,8 @@
 #
 # Cookbook:: netextender
-# Recipe:: default
+# Recipe:: install
 #
-# Copyright:: 2021, The Authors
+# Copyright:: 2021, Nghiem Ba Hieu
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-Chef::Log.warn('This does nothing by default')
+
+package 'NetExtender' do
+  source node['netextender']['source']
+  version node['netextender']['version']
+  installer_type :msi
+  action :install
+end
