@@ -5,9 +5,7 @@
 # The Inspec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/
 
-unless os.windows?
-  return 'Only supports Windows platform'
-end
+return 'Only supports Windows platform' unless os.windows?
 
 NETEXTENDER_VERSION = '10.2.313'
 
