@@ -21,5 +21,6 @@ windows_package 'NetExtender' do
   version node['netextender']['version']
   installer_type :msi
   returns [0, 3010, 1641]
+  options '/norestart /qn'
   action :install
 end
