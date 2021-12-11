@@ -2,6 +2,11 @@
 
 This file is used to list changes made in each version of the netextender cookbook.
 
+# 0.1.2
+
+- Update installation options with '/norestart /qn' to avoid breaking Chef convergence
+- Add tests
+
 # 0.1.1
 
 - Match return code of SonicWall NetExtender installation package
